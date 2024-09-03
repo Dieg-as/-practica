@@ -1,0 +1,331 @@
+1.- Obtener el área de un círculo
+
+Entradas: Radio (r)
+Salidas: Área
+Inicio
+Leer radio r
+Calcular área = pi * r^2
+Mostrar área
+Fin 
+
+
+2.- Obtener la resistencia de un circuito eléctrico
+
+
+Entradas: Intensidad ( W) Voltaje (V) 
+Salidas: Resistencia
+Inicio
+Obtener V
+Obtener I
+R=I/V
+Mostrar “El voltaje del circuito es” R
+Fin
+3.- Algoritmo para obtener la velocidad de un automóvil a velocidad constante
+Entradas: Distancia(m), Tiempo(s)
+Salidas: Velocidad 
+Inicio
+Escribir “Ingrese la distancia recorrida en metros”
+Leer Distancia(m)
+Escribir “Ingrese el tiempo que tardó en recorrer esa distancia en segundos”
+Leer Tiempo(s)
+Velocidad(m/s)= Distancias(m)/Tiempo(s)
+Escribir “La velocidad del automóvil es:”, Velocidad, ”(m/s)”.
+Fin
+
+
+4.- Obtener la Fuerza de gravedad en CU
+Entradas: 
+M1, M2, 
+D
+CGU= 6.6Nm^2 kg^2
+Salidas:
+Fuerza de gravedad (F)
+Inicio
+Mostrar “introduzca distancia 1 y 2”
+Leer las masas de objetos (m1 y m2)
+Leer la distancia entre m1 y m2
+Calcular CGU= 6.6Nm^2 kg^2
+Calcular Fuerza de gravedad (F)= G* (m1 * m2) / r^2
+Mostrar “la fuerza de gravedad es” F
+Fin
+
+
+
+5.Obtener el equivalente a grados F a partir de grados C.
+
+Entradas: Celsius 
+Salidas: Farenheit
+
+Inicio
+Escribir “Ingresa la temperatura en grados celsius:”
+Leer Celsius
+Farenheit= (Celsius*9/5)+32
+Escribir “La temperatura en grados Farenheit es:”,Farenheit, “Grados Farenheit”.
+Fin
+
+
+
+
+6.-Obtener el equivalente entre dólares y pesos
+
+Entradas: solares, tasaCambio
+Salidas: peos
+Inicio
+Escribir”Ingrese la cantidad en dólares:”
+Leer dólares
+Escribir “ingrese la tasa de cambio (pesos por dólar):”
+Leer tasaCambio
+pesos=dolares*tasaCambio
+Escribir “El equivalente en pesos es:”, pesos, “MXN”.
+Fin
+
+
+
+
+7.- Obtener el mayor de entre tres números, indicando si son iguales
+
+Entradas:
+a: el primer número
+b: el segundo número
+c: el tercer número Salida:
+mayor: el número más grande entre a, b y c
+iguales: un booleano que indica si a, b y c son iguales
+Salidas: 
+Resultado a=b=c
+Inicio.
+Inicialice la variable mayor a a.
+Inicialice la variable iguales a verdadero.
+Si b es mayor que a, entonces cambie el valor de mayor a b.
+Si c es mayor que a o c es mayor que b, entonces cambie el valor de mayor a c.
+Si a es igual a b y a es igual a c, entonces cambiar el valor de iguales a falso.
+Fin
+
+
+8.-Algoritmo para el valor absoluto de un número 
+Entradas 
+N=número 
+Salidas 
+Valor absoluto 
+Inicio
+Mostrar "dame un número"
+Leer n
+Si n>0 
+Mostrar "el valor absoluto es" n
+Si n<0
+Multiplicar n(-1)
+Mostrar "el valor absoluto es" n 
+Fin
+
+
+
+9.- A partir de un número si es par obtener su cuadrado y si es impar obtener su raíz cuadrada
+
+Entradas: 
+Número (n)
+
+Salidas:  
+Cuadrado
+Raíz cuadrada
+Inicio
+Leer número
+Si el número es par entonces
+Calcular cuadrado = n^2
+Imprimir cuadrado
+Si es impar entonces 
+Calcular raíz cuadrada = n^½
+Imprimir raíz cuadrada 
+Fin
+
+
+
+
+10.-obtener la raíz de un polinomio de 2º grado con la fórmula general 
+
+Entrada: coeficientes del polinomio ax^2+bx+c=0
+
+Salida: Raíces del polinomio (x1 y x2)
+
+1.leer los coeficientes: asigna los valores de a,b y c Que corresponde al polinomio 
+
+2.calcular el discriminante (D): 
+-utilizar la fórmula: D=b^2-4ac
+-si D es negativo, las raíces serán complejas.
+
+3.Evaluar el discriminante:
+-Si D>0 el polinomio tiene dos raíces reales distintas.
+-Si D=0 el polinomio tiene una raíz doble.
+-Si D<0 el polinomio tiene dos raíces complejas.
+
+4.Calcular las raíces utilizando la fórmula general:
+-Utiliza las siguientes fórmulas dependiendo del valor de D:
+- Si D>0, (-b+-√D)/(2a)
+- Si D<0  (-b)/(2a) + (√D)/(2a)
+
+5.Mostrar las raíces x1 y x2
+6.Fin
+
+
+11.-Calculadora (+-*/) no dividir entre cero:
+Entradas:
+- num1:
+- num2:
+Salidas
+- Resultado:
+
+Inicio
+Ingrese el primer número (num1)
+Ingrese el segundo número (num2)
+Seleccione una operación (suma, resta, multiplicación, división)
+Realizar la operación
+- Suma: resultado = num1+num2
+ - Resta: resultado = num1-num2
+- Multiplicación: resultado = num1*num2
+- División: resultado = num1/num2
+        - Verificar si num2 es distinto de 0
+        - Si num2 = 0, mostrar error y terminar
+        - Si no, resultado = num1 / num2
+Mostrar “su resultado es” resultado
+
+
+
+12.- Sumatoria de los primeros 16 números pares
+Entrada: /
+Salida: Suma de los primeros 16 números pares
+Inicio
+Definir una variable para almacenar una suma “as”
+Definir la variable “suma” = “0”
+Definir la variable “contador” = “0”
+Definir una variable llamada “numero” = “0” 
+Definir una variable para los números pares
+Repetir solo si “contador” = o < “16” sumar el valor de “numero” a “suma”
+Aumentar valor de “numero” en “2”
+“numero par” + “as”
+Aumentar valor de “contador” en “1”
+Deter “suma” si “contador” > “16”
+Mostrar valor de “suma”
+Fin
+
+
+13.- No debo faltar a clases 100 veces
+Entrada: ninguna
+Salidas: “no debo faltar a clases ni brincarmelas ni ir al sambuca”
+
+Inicio
+Definir n=0
+Mostrar “ No debo faltar a clases, ni brincarmelas , ni ir al sambuca”
+n=n+1
+Si n < 100 entonces repetir paso 3
+Si no 
+Fin
+14.- Gestor de Contraseñas
+
+Entradas: contraseñaCorrecta, contraseñaIngresada, intentos
+Inicio
+contraseñaCorrecta=EstudianteFI
+intentos=0
+Mientras intentos < 3 Hacer
+Escribir “Ingresa la contraseña:”
+  Leer contraseñaIngresada
+Si contaseñaIngresada=contraseñaCorrecta Entonces
+Escribir “Acceso concedido”
+Fin
+Sino
+Intentos=intentos+1
+Escribir “Contraseña incorrecta ”
+FinSi
+FinMientras
+Fin
+
+
+15.-Algoritmo número mágico 
+Entradas
+Intentos =10
+N=80
+
+1.Inicio
+2.Mostrar "dame un número"
+3.Leer a
+4.Si a=80 ir a paso 17
+5.Si a>80
+6.Mostrar "el número es muy alto" 
+7.Restar -1 a intentos
+8.Si "intentos >0"
+9.Regresar a paso 2
+10.Si "intentos<0" ir a paso 17
+11.Si a<80
+12.Mostrar "el número es muy bajo"
+13.Restar -1 intentos
+14.Si "intentos>0"
+15.Regresar a paso 2
+16.Si "intentos<0"
+17.Fin
+
+
+
+
+16.- Calculadora de dos números donde se puede reiniciar la calculadora
+
+Entradas
+Sumar (sum)
+Número 1 (n1)
+Número 2 (n2)
+Reiniciar (r)
+Restar (res)
+Multiplicar (m)
+Dividir (d)
+
+Salidas
+Resultado
+Calculadora reiniciada 
+
+Inicio
+Leer variables
+n1 = 0
+n2 = 0
+resultado = 0
+reiniciar = False
+
+Loop principal
+while True:
+  Menú de opciones
+  Mostrar "1. Sumar"
+  Mostrar "2. Restar"
+  Mostrar "3. Multiplicar"
+  Mostrar "4. Dividir"
+  Mostrar "5. Reiniciar"
+  Mostrar "6. Salir"
+
+        Leer números
+    n1 = ingresar("Ingrese el primer número: ")
+    n2 = ingresar("Ingrese el segundo número: ")
+    Realizar operación
+    Si la opción == "1":
+      resultado = n1 + n2
+    elif opcion == "2":
+      resultado = n1 - n2
+    elif opcion == "3":
+      resultado = n1 * n2
+    elif opcion == "4":
+      if n2 != 0:  
+        resultado = n1 / n2
+      else:
+        print("Error: División por cero")
+
+    Mostrar resultado
+    if opcion != "5" and opcion != "6":
+      print("Resultado:", resultado)
+
+ Reiniciar calculadora
+  if reiniciar:
+    n1 = 0
+    n2 = 0
+    resultado = 0
+    reiniciar = Falso
+
+CUESTIONARIO
+Algoritmo: Un algoritmo es un conjunto de instrucciones o reglas definidas y no-ambiguas, ordenadas y finitas que permite, típicamente, solucionar un problema, realizar un cómputo, procesar datos y llevar a cabo otras tareas o actividades.​
+Características de los algoritmos: Un algoritmo debe ser preciso e indicar el orden de realización de cada paso. Un algoritmo debe estar definido. Si se sigue un algoritmo dos veces, se debe obtener el mismo resultado cada vez.
+Etapas del diseño de algoritmos: Todo algoritmo consta de tres secciones principales: 
+1.-Entrada: Es la introducción de datos para ser transformados
+2.-Proceso: Es el conjunto de operaciones a realizar para dar solución al problema 
+3.-Salida: Son los resultados obtenidos a través del proceso
